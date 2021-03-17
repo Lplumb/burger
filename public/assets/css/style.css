@@ -1,0 +1,79 @@
+
+html body{
+    background-color: white;
+    font-family: 'Quicksand', sans-serif;
+  
+  }
+  
+  ul {
+    background-color: whitesmoke;
+  }
+  ul li {
+    padding: 5px;
+    margin: 5px;
+    background: #faebd7;
+  }
+  
+  .label {
+    font-weight: bold;
+  }
+  
+  .create-update-form {
+    padding: 5px;
+    margin: 5px;
+    background: aqua;
+  }
+  
+  .form-group {
+    text-align: center;
+    margin-bottom: 5px;
+  }
+  
+  #header{
+    margin-top: 40px;
+    border-style: solid;
+    border-width: 4px;
+    border-color: black;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 3.6em;
+    background-color: #EAE83D;
+  }
+  
+  #left-col-container{
+    background-color: #DC4D4D;
+    border-style: solid;
+    border-radius: 8px;
+    border-color: black;
+    min-height: 300px;
+    height: auto;
+  }
+  
+  #right-col-container{
+    background-color: #DC4D4D;
+    border-style: solid;
+    border-radius: 8px;
+    border-color: black;
+    min-height: 300px;
+    height: auto;
+  }
+  
+  .menu{
+    font-family: 'Roboto Mono', monospace;
+    font-size: 2em;
+    text-align: center;
+  }
+  
+  #form-container{
+    min-height: 200px;
+    background-color: #4DA8DC;
+    border-style: solid;
+    border-radius: 12px;
+    border-color: black;
+  }
+  
+  ul{
+    padding-inline-start: 0;
+    border-style: solid;
+    border-radius: 8px;
+    border-color: black;
+  }
