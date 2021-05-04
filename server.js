@@ -1,6 +1,9 @@
 const mysql = require("mysql")
 const util = require("util")
 const express = require('express');
+const connection = require('./config/connection.js');
+
+var PORT = process.env.PORT || 3000;
 
 const app = express()
 
