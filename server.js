@@ -2,6 +2,7 @@ const mysql = require("mysql")
 const util = require("util")
 const express = require('express');
 const connection = require('./config/connection.js');
+var routes = require("./controllers/burgerController.js");
 
 var PORT = process.env.PORT || 3000;
 
@@ -16,8 +17,6 @@ var exphbs = require("express-handlebars");
 
 app.engine("handlebars", exphbs({ defaultLayout: "main" }));
 app.set("view engine", "handlebars");
-
-var routes = require("./controllers/burgerController.js");
 
 app.use(routes);
 
