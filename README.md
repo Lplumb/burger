@@ -7,16 +7,10 @@
 
 * [Usage](#usage)
 
-* [License](#license)
-
-* [Contributing](#contributing)
-
 * [Test](#test)
 
 * [Questions](#questions)
 
-## License
-  This project is licensed under the MIT license.
     
 
 ## Installation
@@ -27,12 +21,10 @@ npm i
 ~~~
 
 ## Usage
-Its a simple little website where you can show a list of different burgers and and you can delete them (devored)
+Its a simple little website where you can show a list of different burgers and and you can delete them (devored). Its a pretty good practice for database use and how to add and delete things from a database.
 
+![image](https://user-images.githubusercontent.com/74584167/120154379-6f91ce80-c1b5-11eb-9196-0a52268b5c3f.png)
 
-## Contributing
-
-nothing
 
 ## Tests
 
